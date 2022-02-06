@@ -1,3 +1,6 @@
+body{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.feast-magazine.co.uk%2Fwp-content%2Fuploads%2F2016%2F08%2FWorld-Wide-Web-Celebrates-25th-Anniversary.jpg&f=1&nofb=1);
+}
 h1{
     color: palegreen;
 }
@@ -6,14 +9,60 @@ img{
     width: 400px;
 }
 
+
 #ThirdDiv{
     height: 600px; width: 500px; background-color: palevioletred;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+        align-content: center;
+    -webkit-justify-content: center;
+        justify-content: center;
 }
 
 #spanId{
     font-size: 18px; margin: 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aliceblue;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+        align-content: center;
+    -webkit-justify-content: center;
+        justify-content: center;
 }
 
 .divClass{
+    height: 150px; width: 300px;
     padding: 50px; border: 2px solid peru;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aliceblue;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-aling-items: center;
+        align-content: center;
+    -webkit-justify-content: center;
+        justify-content: center;
+
 }
+
+/*
+    display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+*/
+
+/*  porque este si funciona y el otro no?
+     display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+        align-content: center;
+    -webkit-justify-content: center;
+        justify-content: center;
+*/
