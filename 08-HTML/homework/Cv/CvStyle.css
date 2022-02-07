@@ -1,0 +1,14 @@
+body{
+    background-color: lightsalmon;
+}
+#title{
+    width: auto; height: 75px;
+    margin: 0 auto;
+    text-align: center;  
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    background-color: aliceblue;
+}
+.InfTec{
+    position: absolute;
+}

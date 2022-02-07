@@ -42,7 +42,7 @@ img{
     background-color: aliceblue;
     display: -webkit-flex;
     display: flex;
-    -webkit-aling-items: center;
+    -webkit-box-align: center;
         align-content: center;
     -webkit-justify-content: center;
         justify-content: center;
